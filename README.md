@@ -1,4 +1,10 @@
-# Varying Vagrant Vagrants
+# VVV-Lite
+
+I got tired of all the extra stuff that VVV puts in, but I loved how easy it was to get going.  This is my marriage of those things.
+
+~Mitch Canter [Website](http://www.mitchcanter.com) | [Twitter](http://www.twitter.com/thatmitchcanter)
+
+## Varying Vagrant Vagrants
 
 Varying Vagrant Vagrants is an open source [Vagrant](http://vagrantup.com) configuration focused on [WordPress](http://wordpress.org) development. VVV is [MIT Licensed](https://github.com/varying-vagrant-vagrants/vvv/blob/master/LICENSE).
 
@@ -70,12 +76,7 @@ Entirely different server configurations can be created by modifying the files i
 1. Start the Vagrant environment with `vagrant up`
     * Be patient as the magic happens. This could take a while on the first run as your local machine downloads the required files.
     * Watch as the script ends, as an administrator or `su` ***password may be required*** to properly modify the hosts file on your local machine.
-1. Visit any of the following default sites in your browser:
-    * [http://local.wordpress.dev/](http://local.wordpress.dev/) for WordPress stable
-    * [http://local.wordpress-trunk.dev/](http://local.wordpress-trunk.dev/) for WordPress trunk
-    * [http://src.wordpress-develop.dev/](http://src.wordpress-develop.dev/) for trunk WordPress development files
-    * [http://build.wordpress-develop.dev/](http://build.wordpress-develop.dev/) for the version of those development files built with Grunt
-    * [http://vvv.dev/](http://vvv.dev/) for a default dashboard containing several useful tools
+1. Visit [http://vvv.dev/](http://vvv.dev/) for a default dashboard containing several useful tools
 
 Fancy, yeah?
 
@@ -123,26 +124,6 @@ All database usernames and passwords for WordPress installations included by def
 
 All WordPress admin usernames and passwords for WordPress installations included by default are `admin` and `password`.
 
-#### WordPress Stable
-* LOCAL PATH: vagrant-local/www/wordpress-default
-* VM PATH: /srv/www/wordpress-default
-* URL: `http://local.wordpress.dev`
-* DB Name: `wordpress_default`
-
-#### WordPress Trunk
-* LOCAL PATH: vagrant-local/www/wordpress-trunk
-* VM PATH: /srv/www/wordpress-trunk
-* URL: `http://local.wordpress-trunk.dev`
-* DB Name: `wordpress_trunk`
-
-#### WordPress Develop
-* LOCAL PATH: vagrant-local/www/wordpress-develop
-* VM PATH: /srv/www/wordpress-develop
-* /src URL: `http://src.wordpress-develop.dev`
-* /build URL: `http://build.wordpress-develop.dev`
-* DB Name: `wordpress_develop`
-* DB Name: `wordpress_unit_tests`
-
 #### MySQL Root
 * User: `root`
 * Pass: `root`
@@ -153,9 +134,6 @@ All WordPress admin usernames and passwords for WordPress installations included
 A bunch of stuff!
 
 1. [Ubuntu](http://www.ubuntu.com/) 14.04 LTS (Trusty Tahr)
-1. [WordPress Develop](http://develop.svn.wordpress.org/trunk/)
-1. [WordPress Stable](http://wordpress.org/)
-1. [WordPress Trunk](http://core.svn.wordpress.org/trunk/)
 1. [WP-CLI](http://wp-cli.org/)
 1. [nginx](http://nginx.org/) 1.6.x
 1. [mysql](http://www.mysql.com/) 5.5.x
@@ -211,3 +189,5 @@ VVV has come a long way since it was first [launched as Varying Vagrant Vagrants
 In April of 2013, we made a [call to the WordPress community](http://jeremyfelt.com/code/2013/04/08/hi-wordpress-meet-vagrant/) to try to encourage the addition of Vagrant to everyday life. These efforts continued with talks at [WordCamp Chicago](http://wordpress.tv/2013/12/31/jeremy-felt-hi-wordpress-meet-vagrant-2/), [WordCamp Vancouver](http://wordpress.tv/2013/10/19/jeremy-felt-hi-wordpress-meet-vagrant/), and WordCamp Denver.
 
 In January of 2014, [10up](http://10up.com) made the decision to [spin VVV off](http://10up.com/blog/varying-vagrant-vagrants-future/) into its own organization to better align with the community that has grown around the project over time. This transition opens doors for what [Varying Vagrant Vagrants, the organization](http://jeremyfelt.com/code/2014/01/27/varying-vagrant-vagrants-organization/) can accomplish as an ongoing project.
+
+And then Mitch gutted it and made it his own :D
